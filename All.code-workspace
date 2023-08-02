@@ -4,16 +4,10 @@
 			"path": "."
 		},
 		{
-			"path": "../DataTidy23RozotOperatorComp"
+			"path": "../DataTidy22RodoThesis"
 		},
 		{
-			"path": "../DataTidyILC"
-		},
-		{
-			"path": "../Analysis23RozotOperatorComp"
-		},
-		{
-			"path": "../AnalysisILC"
+			"path": "../Manuscript22RodoThesis"
 		}
 	],
 	"settings": {}
