@@ -1,19 +1,39 @@
 {
-	"image": "mcr.microsoft.com/devcontainers/universal:2.3.1-focal",
-	"features": {
+  "name": "Modified Rocker Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile.bioc",
+    "context": ".."
+  },
+  "features": {
+  	"ghcr.io/MiguelRodo/DevContainerFeatures/repos:1": {},
+    "ghcr.io/MiguelRodo/DevContainerFeatures/config-r:2": {
+      "debug": true,
+      "debugRenv": true
+    },
 		"ghcr.io/rocker-org/devcontainer-features/r-rig:1": {
-			"version": "4.2.2",
-			"VSCODE_R_SUPPORT": "full",
-			"installDevTools": true,
+			"installDevTools": false,
 			"installREnv": true,
-			"installRMarkdown": true,
-			"installJupyterlab": false,
-			"installRadian": true
+			"installRadian": true,
+			"version": "none",
+			"pakVersion": "auto",
+			"vscodeRSupport": "full",
+			"pandocVersion": "auto"
 		},
-		"ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
-			"installTinyTex": true,
-			"version": "1.3.361"
+		"ghcr.io/devcontainers-contrib/features/vscode-cli:1": {},
+		"ghcr.io/devcontainers-contrib/features/apt-get-packages:1": {
+			"packages": "xvfb,vim,libcurl4-openssl-dev,,libsecret-1-dev"
+		},
+    "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
+			"installTinyTex": true
 		}
-	},
-	"postCreateCommand": "bash setup-r-min.sh && bash clone-repos.sh && install-apptainer.sh && bash download-sif.sh && bash run-apptainer.sh"
+  },
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"quarto.quarto",
+				"REditorSupport.r",
+				"mathematic.vscode-pdf"
+			]
+		}
+	}
 }
