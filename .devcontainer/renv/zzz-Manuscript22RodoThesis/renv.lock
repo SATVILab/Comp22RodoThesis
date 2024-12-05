@@ -145,6 +145,21 @@
       ],
       "Hash": "5949646ebe5e4d3aa3d9aa9470fe9054"
     },
+    "DataTidy22RodoThesis": {
+      "Package": "DataTidy22RodoThesis",
+      "Version": "0.1.0",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "SATVILab",
+      "RemoteRepo": "DataTidy22RodoThesis",
+      "RemoteRef": "main",
+      "RemoteSha": "a93be651d24730664cb06e55ba94d2f5cc5e1418",
+      "Requirements": [
+        "R"
+      ],
+      "Hash": "152c149238cff7c646cb71f4e8f4c010"
+    },
     "DataTidyACSAntibody": {
       "Package": "DataTidyACSAntibody",
       "Version": "0.1.0",
@@ -201,8 +216,8 @@
       "RemoteUsername": "SATVILab",
       "RemoteRepo": "DataTidyACSCyTOFCytokinesTCells",
       "RemoteRef": "main",
-      "RemoteSha": "26b2f97f683567e17d4f47c9cebe1658633c32b0",
-      "Hash": "e2e7f0cf50e5aca2d440867c08ec78ae"
+      "RemoteSha": "e19cf8fd507caa903d0b644da8d51119579feca3",
+      "Hash": "2283fd64ee47f1e59834916f2c2ba664"
     },
     "DataTidyACSCyTOFFAUST": {
       "Package": "DataTidyACSCyTOFFAUST",
@@ -488,6 +503,21 @@
         "tibble"
       ],
       "Hash": "efd39ba2c5972bfffbae3891c911072d"
+    },
+    "UtilsReportRSV": {
+      "Package": "UtilsReportRSV",
+      "Version": "0.1.0.9002",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "SATVILab",
+      "RemoteRepo": "UtilsReportRSV",
+      "RemoteRef": "main",
+      "RemoteSha": "750203da9f439f5fef5ea9e2b65e17c81f1f9923",
+      "Requirements": [
+        "dplyr"
+      ],
+      "Hash": "91424c8d52d3f249a3a6d332a9c78778"
     },
     "V8": {
       "Package": "V8",
@@ -1363,6 +1393,23 @@
       ],
       "Hash": "24b224366f9c2e7534d2344d10d59211"
     },
+    "hexbin": {
+      "Package": "hexbin",
+      "Version": "1.28.5",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "grDevices",
+        "graphics",
+        "grid",
+        "lattice",
+        "methods",
+        "stats",
+        "utils"
+      ],
+      "Hash": "10a44851f04ff2d0e26b1c84c38d914a"
+    },
     "highr": {
       "Package": "highr",
       "Version": "0.11",
@@ -2078,14 +2125,14 @@
     },
     "projr": {
       "Package": "projr",
-      "Version": "0.1.11-12",
+      "Version": "0.1.11-15",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "SATVILab",
       "RemoteRepo": "projr",
       "RemoteRef": "main",
-      "RemoteSha": "465df7917924408ab0af2b7f545ff4ac84bf7946",
+      "RemoteSha": "122df436ce18489ff2947c1c0a96c11a3456bac4",
       "Requirements": [
         "desc",
         "digest",
@@ -2095,7 +2142,7 @@
         "rprojroot",
         "yaml"
       ],
-      "Hash": "62dc935e72019e03e52f7c095655f131"
+      "Hash": "5d44a04d68b9acd04c70b5927f73eb69"
     },
     "promises": {
       "Package": "promises",
