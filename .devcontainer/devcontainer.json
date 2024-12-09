@@ -25,7 +25,8 @@
 		},
     "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
 			"installTinyTex": true
-		}
+		},
+		"ghcr.io/MiguelRodo/DevContainerFeatures/mermaid:1.2.0": {}
   },
 	"customizations": {
 		"vscode": {
