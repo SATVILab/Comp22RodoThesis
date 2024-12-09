@@ -1768,6 +1768,19 @@
       ],
       "Hash": "e2fca3e12e4db979dccc6e519b10a7ee"
     },
+    "lubridate": {
+      "Package": "lubridate",
+      "Version": "1.9.3",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "generics",
+        "methods",
+        "timechange"
+      ],
+      "Hash": "680ad542fbcf801442c83a6ac5a2126c"
+    },
     "magrittr": {
       "Package": "magrittr",
       "Version": "2.0.3",
@@ -1951,6 +1964,23 @@
         "methods"
       ],
       "Hash": "bf3987702285f4e68c270e8498801194"
+    },
+    "piggyback": {
+      "Package": "piggyback",
+      "Version": "0.1.5",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "cli",
+        "fs",
+        "gh",
+        "glue",
+        "httr",
+        "jsonlite",
+        "lubridate",
+        "memoise"
+      ],
+      "Hash": "8bb22d293b2f482257d396883cfb2821"
     },
     "pillar": {
       "Package": "pillar",
@@ -2150,14 +2180,14 @@
     },
     "projr": {
       "Package": "projr",
-      "Version": "0.1.11-15",
+      "Version": "0.1.11-16",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "SATVILab",
       "RemoteRepo": "projr",
       "RemoteRef": "main",
-      "RemoteSha": "122df436ce18489ff2947c1c0a96c11a3456bac4",
+      "RemoteSha": "c39bc0580c170fc8c49bbb9a369f15253408f9e1",
       "Requirements": [
         "desc",
         "digest",
@@ -2167,7 +2197,7 @@
         "rprojroot",
         "yaml"
       ],
-      "Hash": "5d44a04d68b9acd04c70b5927f73eb69"
+      "Hash": "f08127b24e3a72fcbcd11e0d212df874"
     },
     "promises": {
       "Package": "promises",
@@ -2807,6 +2837,17 @@
         "withr"
       ],
       "Hash": "829f27b9c4919c16b593794a6344d6c0"
+    },
+    "timechange": {
+      "Package": "timechange",
+      "Version": "0.3.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "cpp11"
+      ],
+      "Hash": "c5f3c201b931cd6474d17d8700ccb1c8"
     },
     "tinytex": {
       "Package": "tinytex",
