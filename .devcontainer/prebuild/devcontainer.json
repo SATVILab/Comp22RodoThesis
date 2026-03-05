@@ -1,5 +1,5 @@
 {
-  "image": "ghcr.io/satvilab/comp22rodothesis-main:b7e0beb",
+  "image": "ghcr.io/satvilab/comp22rodothesis-main:v1.0.0",
   "customizations": {
     "vscode": {
       "extensions": [
