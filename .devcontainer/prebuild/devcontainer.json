@@ -4,7 +4,8 @@
     "vscode": {
       "extensions": [
         "quarto.quarto",
-        "REditorSupport.r",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
         "mathematic.vscode-pdf"
       ]
     }
