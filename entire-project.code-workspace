@@ -4,10 +4,10 @@
       "path": "."
     },
     {
-      "path": "../data"
+      "path": "data"
     },
     {
-      "path": "../manuscript"
+      "path": "manuscript"
     }
   ]
 }
