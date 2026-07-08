@@ -1,1 +1,1 @@
-source("scripts/r/switch.R")
+try(source("scripts/r/switch_r.R"))
