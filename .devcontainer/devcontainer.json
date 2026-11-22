@@ -1,6 +1,6 @@
 {
   "name": "Modified Rocker Dev Container",
-  "image": "ghcr.io/satvilab/devcontainers-2022-rodo-thesis:v1.0.0",
+  "image": "ghcr.io/satvilab/devcontainers-2022-rodo-thesis:v1.0.1",
 	"customizations": {
 		"vscode": {
 			"extensions": [
